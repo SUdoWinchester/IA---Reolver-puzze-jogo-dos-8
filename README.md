@@ -6,8 +6,10 @@ Algoritmo usa basicamente a busca em largura;
 No main.c é colocado a matriz inicial, que representa o tabuleiro no estado inicial;
 
 No skynet.c, existe uma variavel chamada codFinal, esse código é referente ao estado final, ou estado alvo, por exemplo, a matriz resulado é a seguinte:
-|1 2 3|
-|4 5 6|
-|7 8 0|
+|1 2 3|;
+|4 5 6|;
+|7 8 0|;
 
 Então o código vai ser 123456780, ou seja, os valores da matriz em ordem.
+
+Para copilar: gcc -o skynet lista.c skynet.c main.c
