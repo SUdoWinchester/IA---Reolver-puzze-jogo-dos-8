@@ -5,7 +5,7 @@ Algoritmo usa basicamente a busca em largura;
 
 No main.c é colocado a matriz inicial, que representa o tabuleiro no estado inicial;
 
-No skynet.c, existe uma variavel chamada codFinal, esse código é referente ao estado final, ou estado alvo, por exemplo, a matriz resulado é a seguinte:
+No skynet.c, existe uma variavel chamada codFinal, esse código é referente ao estado final, ou estado alvo, por exemplo, a matriz resulado é a seguinte:<br/>
 |1 2 3|<br/>
 |4 5 6|<br/>
 |7 8 0|<br/>
