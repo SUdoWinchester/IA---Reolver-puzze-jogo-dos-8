@@ -10,6 +10,13 @@ No skynet.c, existe uma variavel chamada codFinal, esse código é referente ao 
 |4 5 6|<br/>
 |7 8 0|<br/>
 
-Então o código vai ser 123456780, ou seja, os valores da matriz em ordem.
+Então o código vai ser 123456780, ou seja, os valores da matriz em ordem. Se a matriz final desejada fosse:<br/>
+|1 2 3|<br/>
+|8 0 4|<br/>
+|7 6 5|<br/>
+
+Então o codFinal seria 123804765.
+
+IMPORTANTE: Esse é algoritmo de força bruta, então ele testa todas a possibilidades até encontrar a solução, portanto ele é muito lento. Quando for testar, usar uma matriz inicial como poucos movimentos até o resultado final, caso contrario pode demorar muito tempo.
 
 Para copilar: gcc -o skynet lista.c skynet.c main.c
