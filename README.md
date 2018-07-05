@@ -1,4 +1,4 @@
-# IA - Reolver puzzle Jogo dos 8 
+# IA - Resolver puzzle Jogo dos 8 
 Jogo dos 8: http://www.professeurs.polymtl.ca/michel.gagnon/Disciplinas/Bac/IA/ResolProb/arv_busca_queb8a.gif
 
 Algoritmo usa basicamente a busca em largura;
